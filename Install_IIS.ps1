@@ -223,7 +223,7 @@ catch {
 
     }
 
-writelog "Creating new website"
+writelog "Creating new website" $log
 New-Item "iis:\Sites\Custom Default Web Site" -bindings @{protocol="http";bindingInformation="*:80:"} -physicalPath "$drive\inetpub\wwwroot\Custom Default Web Site"
 
 writelog "Change location of logging directory" $log
