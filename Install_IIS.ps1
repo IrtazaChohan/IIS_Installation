@@ -2,7 +2,7 @@
 
 .SYNOPSIS
 
-This script configures a server to align with best practice crptography levels.
+This script will install and configure IIS on a server (IIS 8.5 and onwards).
 
 Written by Irtaza Chohan (www.lostintheclouds.net & https://github.com/IrtazaChohan/Align-Crypto-Policy)
 
