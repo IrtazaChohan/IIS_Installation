@@ -4,7 +4,7 @@
 
 This script will install and configure IIS on a server (IIS 8.5 and onwards).
 
-Written by Irtaza Chohan (www.lostintheclouds.net & https://github.com/IrtazaChohan/Align-Crypto-Policy)
+Written by Irtaza Chohan (http://www.lostintheclouds.net & https://github.com/IrtazaChohan/Align-Crypto-Policy)
 
 .DESCRIPTION
 
@@ -50,14 +50,14 @@ This will install IIS on the D: drive and use C:\temp as the installation loggin
 
 .NOTES
 
- 1. You need to have Administrative rights on the server to run this script. 
- 2. This script cannot be run remotely. You will need to copy the folder structure down locally to the server.
- 3. Please remove the local copy of this script once completed.
+1. You need to have Administrative rights on the server to run this script. 
+2. If no argument entered it will default to install on D: drive
+3. If you want to enter a different drive then enter in the format <DRIVE>: ie E: F: etc - anything else other than a valid drive the script will fail. 
 
 
 .LINK
 
-https://www.lostintheclouds.net & https://github.com/IrtazaChohan
+http://www.lostintheclouds.net & https://github.com/IrtazaChohan
 
 #>
 
